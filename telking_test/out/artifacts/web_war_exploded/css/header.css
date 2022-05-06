@@ -1,0 +1,42 @@
+.head{
+	position: relative;
+	height: 120px;
+	background: #ffffff;
+}
+
+.head img{
+	position: absolute;
+	top: 50%;
+	left: 30px;
+	margin-top: -35px;
+
+}
+
+#form1{
+	position: absolute;
+	right: 30px;
+	top: 50%;
+	margin-top: -22px;
+}
+
+ #form1 #setting{
+	margin-right: 20px;
+}
+
+ #form1 #message{
+	 margin-right: 20px;
+ }
+
+.head #setting{
+	width: 30px;
+}
+
+.head #message{
+	width: 30px;
+}
+
+.head #log_out {
+	height: 40px;
+	width: 80px;
+	background-color: #ff0000;
+}

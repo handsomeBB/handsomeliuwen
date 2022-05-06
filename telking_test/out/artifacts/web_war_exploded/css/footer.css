@@ -1,0 +1,42 @@
+.foot{
+	/*给定高度，否则背景颜色不生效*/
+	position: relative;
+	height: 250px;
+	background-color: #000000;
+}
+
+.foot img{
+	position: absolute;
+	top: 50%;
+	margin-top: -35px;
+	left: 30px;
+}
+
+.other{
+	position: absolute;
+	height: 150px;
+	width: 1500px;
+	top: 50px;
+	left:200px;
+}
+
+.foot .other ul{
+	list-style: none;
+	float: left;
+	width: 150px;
+}
+
+.other li{
+	height: 30px;
+}
+
+.other a{
+	/*去除超链接下划线*/
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.other a:hover{
+	text-decoration: underline;
+	color: #6d9eeb;
+}
